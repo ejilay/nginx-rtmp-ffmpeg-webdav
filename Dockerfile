@@ -1,4 +1,4 @@
-FROM ejilay/nginx-rtmp:latest
+FROM ejilay/nginx-rtmp-webdav:latest
 
 MAINTAINER Ilya Baturin <ivbaturin@gmail.com>
 

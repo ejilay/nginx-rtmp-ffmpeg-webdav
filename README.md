@@ -1,4 +1,4 @@
-# Docker-nginx-rtmp with ffmpeg
+# nginx-rtmp-webdav with ffmpeg
 Docker image for an RTMP server running on nginx. Image also contains statically builded ffmpeg
 
 NGINX Version 1.9.10
@@ -16,5 +16,5 @@ The configuration file is in /opt/nginx/conf/
 
 To run the container and bind the port 1935 to the host machine; run the following:
 ```
-docker run -p 1935:1935 -p 8080:8080 ejilay/nginx-rtmp-ffmpeg
+docker run -p 1935:1935 -p 8080:8080 ejilay/nginx-rtmp-ffmpeg-webdav
 ```
